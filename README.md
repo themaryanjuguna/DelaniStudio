@@ -19,7 +19,7 @@ https://themaryanjuguna.github.io/DelaniStudio/
 ## Behaviour Driven Development
 
 ## Technologies used
-HTML, CSS, BootStrap, JavaScript jQuery
+HTML, CSS, BootStrap, JavaScript and jQuery
 
 ### Known Bugs
 At the moment no bugs have been detected, however feel free to report any typos or rookie mistakes via the contacts provided below.
