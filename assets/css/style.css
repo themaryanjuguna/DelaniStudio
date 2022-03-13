@@ -16,3 +16,19 @@
     background: url(/assets/backgrounds/c_image.jpg);
     background-size: cover;
 }
+
+
+.flipcard {
+    height: 199px;
+    width: 300px;
+    margin: 0 auto;
+}
+.flipcard img {
+    width: 300px;
+    height: auto;
+}
+.flipcard .back {
+    background: #2184cd;
+    color: #fff;
+    text-align: center;
+}
