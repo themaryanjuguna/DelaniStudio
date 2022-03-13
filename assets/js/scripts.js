@@ -1,6 +1,6 @@
-$(document).ready(function (){
+$(document).ready(function(){
     $("#flipcard").flip({
         trigger: 'hover',
-        axis: 'y'
     })
 })
+

@@ -24,7 +24,10 @@
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css" type="text/css">
     <link rel="stylesheet" href="./assets/js/jquery-3.6.0.js" type="text/jquery-3">
-    <link rel="stylesheet" href="./assets/js/scripts.js" type="text/js">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/js/scripts.js">
+    <link rel="stylesheet" href="./assets/js/jquery.flip.min.js">
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 
 
 
@@ -51,7 +54,6 @@
                 and agile. </p>
                 <p class="fs-6"> Our approach unifies design, development, and product management to create exceptional products.</p>
                 <p class="fs-6">We start each project by understanding your business goals, the user's needs and the product requirements </p>
-                <p class="fs-6">We start each project by understanding your business goals, the user's needs, and the product requirements</p>
                 <p class="fs-6">Then we help translate them into effective and elegant solutions. </p> 
             </div>
           </div>
@@ -73,11 +75,12 @@
                 <h1 class="mt-5 ">WHAT WE DO</h1>                 
             </div>
 
-            <div class="row justify-content-evenly mt-5">
-                <div class="col-md-4" id="flipcard">
+            <div id="flipcard" class="row justify-content-evenly mt-5">
+                <div class="front col-md-4">
                     <img class="d-block mx-auto my-4" src="./assets/services_icons/design_icon.png" alt="design_icon">
+                </div>
                    
-                    <div class="back">
+                  <div class="back">
                     <h5 class="text-center mt-3">DESIGN</h5>                      
                         <p class="fs-6 text-center">                    
                             Our design practice offers a full range of services
@@ -90,21 +93,26 @@
                         </p>
                       </div>
                 </div>
-                <div class="col-md-4 mt-3" id="flipcard" >
-                   <img class="d-block mx-auto my-4" src="./assets/services_icons/dev_icon.png" alt="dev_icon">
-                    <div class="back">
-                      <h5 class="text-center mt-3">DEVELOPMENT</h5>
-                        <p class="fs-6 text-center">                    
-                          All engineers are fluent in the latest enterprise, mobile
-                          and web development technologies
-                          They collaborate with your team to write and improve
-                          code on a daily basis, using proven p ractices such as
-                          test-driven development and pair programming
-                        </p>
+                
+                <div id="flipcard" >
+                    <div class="col-md-4 mt-3">
+                      <img class="d-block mx-auto my-4" src="./assets/services_icons/dev_icon.png" alt="dev_icon">
+                      </div>
+                      <div class="back">
+                          <h5 class="text-center mt-3">DEVELOPMENT</h5>
+                            <p class="fs-6 text-center">                    
+                              All engineers are fluent in the latest enterprise, mobile
+                              and web development technologies
+                              They collaborate with your team to write and improve
+                              code on a daily basis, using proven p ractices such as
+                              test-driven development and pair programming
+                            </p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-md-4 mt-3" id="flipcard">
+                <div id="flipcard">
+                  <div class="col-md-4 mt-3">
                    <img class="d-block mx-auto my-4" src="./assets/services_icons/product_icon.png"alt="product icon">
                    <div class="back">
                     <h5 class="text-center mt-3">PRODUCT MANAGEMENT</h5>
@@ -118,7 +126,7 @@
                    </div>
                 </div>                
             </div>
-
+          </div>
         </div>
 
         <div class="container">

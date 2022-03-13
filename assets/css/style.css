@@ -19,12 +19,13 @@
 
 
 .flipcard {
-    height: 199px;
-    width: 300px;
-    margin: 0 auto;
+    height: 100px;
+    width: 90px;
+    cursor: pointer;
 }
+
 .flipcard img {
-    width: 300px;
+    width: 100px;
     height: auto;
 }
 .flipcard .back {
