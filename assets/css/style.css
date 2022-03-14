@@ -1,40 +1,25 @@
-#home{
-    background: url(.../assets/backgrounds/h_img.jpg);
+.home{
+    background: url(./assets/backgrounds/h_img.jpg);
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
-#services{
-    background: url(.../assets/backgrounds/s_image.jpg);
+.services{
+    background: url(./assets/backgrounds/s_image.jpg);
     background-size: cover;
     
 }
 
-#contacts{
-    background: url(.../assets/backgrounds/c_image.jpg);
+.contacts{
+    background: url(./assets/backgrounds/c_image.jpg);
     background-size: cover;
 }
 
 
-.flipcard {
-    height: 100px;
-    width: 90px;
-    cursor: pointer;
-}
 
-.flipcard img {
-    width: 100px;
-    height: auto;
-}
-.flipcard .back {
-    background: wheat;
-    color: #000;
-    text-align: center;
-}
-
-input.transparent-input{
+input .transparent-input{
     background-color:rgba(0,0,0,0)!important;
     border: 2px solid wheat !important;
  
