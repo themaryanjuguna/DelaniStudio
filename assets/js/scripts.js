@@ -1,9 +1,10 @@
-$(document).ready(function(){
-    $("#flipcard").flip({
-        trigger: 'hover',
-    })
-})
-
+$(document).ready(function() {
+    $("flipcard").click(function() {
+      $(".front").toggle();
+      $(".back").toggle();
+      $(".front").toggle();
+    });
+  });
 
 $("delaniForm" ).submit(function(event) {
     if ( $("input").first().val() === "correct" ) {
