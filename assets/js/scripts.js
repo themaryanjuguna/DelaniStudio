@@ -1,17 +1,12 @@
-$(document).ready(function() {
-    $("flipcard").click(function() {
-      $(".front").toggle();
-      $(".back").toggle();
-      $(".front").toggle();
-    });
+$(document).ready(function(){
+  $("#service-img").on("click", function(){
+    $("p").toggle();
   });
+});
 
-$("delaniForm" ).submit(function(event) {
-    if ( $("input").first().val() === "correct" ) {
-      $( "span" ).text( "Thank you. Your message has been recieved" ).show();
-      return;
-    }
-   
-    $("span").text( "Not valid!" ).show().fadeOut( 1000 );
-    event.preventDefault();
+$(document).ready(function(){
+  $("#img1").hover(function(){
+    $(this).css("background-color", "white");
+        
   });
+});
