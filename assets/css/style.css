@@ -1,19 +1,19 @@
-#home{
-    background: url(./assets/backgrounds/h_img.jpg);
+.home{
+    background-image: url('h_img.jpg');
     height: 600px;
     background-size: cover;
     background-repeat: no-repeat;
     
 }
 
-#services{
-    background: url(/assets/backgrounds/s_image.jpg);
+.services{
+    background-image: url('s_image.jpg');
     background-size: cover;
     
 }
 
-#contacts {
-    background: url(../assets/backgrounds/c_image.jpg);
+.contacts {
+    background: url('c_image.jpg');
     background-size: cover;
 }
 
