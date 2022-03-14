@@ -1,4 +1,4 @@
-.home{
+#home{
     background: url(../assets/backgrounds/h_img.jpg);
     height: 600px;
     background-size: cover;
@@ -6,13 +6,13 @@
     
 }
 
-.services{
+#services{
     background: url(../assets/backgrounds/s_image.jpg);
     background-size: cover;
     
 }
 
-.contacts {
+#contacts {
     background: url(../assets/backgrounds/c_image.jpg);
     background-size: cover;
 }
