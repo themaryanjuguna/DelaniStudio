@@ -29,7 +29,14 @@
     height: auto;
 }
 .flipcard .back {
-    background: #2184cd;
-    color: #fff;
+    background: wheat;
+    color: #000;
     text-align: center;
+}
+
+input.transparent-input{
+    background-color:rgba(0,0,0,0)!important;
+    border: 2px solid wheat !important;
+ 
+
 }

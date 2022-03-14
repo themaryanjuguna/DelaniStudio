@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="./assets/js/scripts.js">
     <link rel="stylesheet" href="./assets/js/jquery.flip.min.js">
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!--MailChimp Integration-->
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(delaniForm),p=c.getElementsByTagName(delaniForm)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/30c5f3d9a7cf2e60623465baf/e1f419427b5f5dd156e9f0690.js");</script>
+ 
 
 
 
@@ -78,10 +81,9 @@
             <div id="flipcard" class="row justify-content-evenly mt-5">
                 <div class="front col-md-4">
                     <img class="d-block mx-auto my-4" src="./assets/services_icons/design_icon.png" alt="design_icon">
-                </div>
+                    <h5 class="text-center mt-3">DESIGN</h5>                      
                    
                   <div class="back">
-                    <h5 class="text-center mt-3">DESIGN</h5>                      
                         <p class="fs-6 text-center">                    
                             Our design practice offers a full range of services
                             including brand strategy, interaction, and visual design
@@ -92,14 +94,15 @@
                             is what is needed
                         </p>
                       </div>
+                    </div>
                 </div>
                 
-                <div id="flipcard" >
-                    <div class="col-md-4 mt-3">
+                <div id="flipcard">
+                    <div class="front col-md-4 mt-3">
                       <img class="d-block mx-auto my-4" src="./assets/services_icons/dev_icon.png" alt="dev_icon">
-                      </div>
-                      <div class="back">
-                          <h5 class="text-center mt-3">DEVELOPMENT</h5>
+                      <h5 class="text-center mt-3">DEVELOPMENT</h5>
+                      
+                      <div class="back">                          
                             <p class="fs-6 text-center">                    
                               All engineers are fluent in the latest enterprise, mobile
                               and web development technologies
@@ -112,10 +115,12 @@
                 </div>
 
                 <div id="flipcard">
-                  <div class="col-md-4 mt-3">
+                  <div class="front col-md-4 mt-3">
                    <img class="d-block mx-auto my-4" src="./assets/services_icons/product_icon.png"alt="product icon">
+                   <h5 class="text-center mt-3">PRODUCT MANAGEMENT</h5>
+
+                   
                    <div class="back">
-                    <h5 class="text-center mt-3">PRODUCT MANAGEMENT</h5>
                     <p class="fs-6 text-center">                    
                       Planning and development are iterative. Because we are
                       constantly coding and testing, the products we build are
@@ -178,21 +183,22 @@
     </section>
 
 <section id="contacts" class="py-5 text-center text-white">
-    <div class="row py-lg-5">
-      <div class="col-lg-10 col-md-8 mx-auto">
+    <div class="row align-items-center">
+      <div class="col-12 .offset-md-3">
         
         <h1 class="fw-light">Contact us</h1>
               
-        <form id="#delaniForm" action="mailto:themaryanjuguna@gmail.com">                           
-          <div class="col-md-6">
+        <form id="#delaniForm" name="#delaniForm">                           
+          <div class="col-md-12 align-self-center">
               <div class="form-check-inline col-md-5 mt-3">
                   <input type="name" class="form-control" autocomplete="false" id="name" placeholder="Enter your name" name="name" required>
               </div>
               <div class="form-check-inline col-md-5 mt-3">
                   <input type="email" class="form-control" autocomplete="false" id="email" placeholder="Enter email" name="email" required>
               </div><br>
-              <textarea class="form-control mt-3" autocomplete="false" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-              <button class="btn btn-block mt-3" type="submit">Send Now!</button>
+              <div class="form-check-inline col-md-10 mt-3">
+                <textarea class="form-control col-md-10 mt-3" autocomplete="true" placeholder="Leave a comment here" id="comments" style="height: 100px" required></textarea>
+            </div>
             </div>
 
       </div>
@@ -220,7 +226,5 @@
         <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
-    <!--MailChimp Integration-->
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/30c5f3d9a7cf2e60623465baf/e1f419427b5f5dd156e9f0690.js");</script>
-  </body>
+   </body>
 </html>
