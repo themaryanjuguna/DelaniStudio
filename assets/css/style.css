@@ -1,3 +1,7 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .home{
     background-image: url('h_img.jpg');
     height: 600px;
@@ -19,9 +23,50 @@
 
 
 
-input .transparent-input{
-    background-color:rgba(0,0,0,0)!important;
+.form-control {
+    background-color: transparent !important;
     border: 2px solid wheat !important;
+    color: wheat;
  
-
 }
+
+#delaniForm {
+    background-color: transparent !important;
+    border: 2px solid wheat !important;
+    color: wheat;
+ 
+}
+
+.walrus-showing {
+    display: none;
+  }
+
+.content-after {
+    display: none;
+}
+
+.content-after-a {
+    display: none;
+}
+
+.content-after-b {
+    display: none;
+}
+.content-after-c {
+    display: none;
+}
+
+.p-a, .p-b, .p-c, .p-d, 
+.p-e, .p-f, .p-g, .p-h {
+    display: none;
+    background-color:  rgba(110, 100, 70, 0.692);
+    color: white;
+    cursor: crosshair;
+    position:relative;
+    top: -180px;
+    bottom: -380px;
+    padding: 15px;
+    margin: 20px ;
+    z-index: 2;   
+}
+
