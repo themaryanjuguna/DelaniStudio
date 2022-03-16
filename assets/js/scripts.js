@@ -98,7 +98,7 @@ function validateForm() {
   }
 }
 
-var input = document.getElementById("name, email");
+var input = document.getElementById("comments");
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
    event.preventDefault();
