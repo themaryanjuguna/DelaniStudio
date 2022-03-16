@@ -30,16 +30,6 @@ body{
  
 }
 
-#delaniForm {
-    background-color: transparent !important;
-    border: 2px solid wheat !important;
-    color: wheat;
- 
-}
-
-.walrus-showing {
-    display: none;
-  }
 
 .content-after {
     display: none;

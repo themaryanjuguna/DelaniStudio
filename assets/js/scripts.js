@@ -89,10 +89,21 @@ $(document).ready(function(){
 
 
 //Contact section
+
+// document.getElementById("delaniForm").submit();
+// const myForm = document.getElementById("delaniForm");
+// document.querySelector(".submit").addEventListener("click", function(){
+
+//   myForm.submit();
+
+// });
+
+
+
 function validateForm() {
-  let x = document.forms["delaniForm"]["fname"].value;
+  let x = document.forms["delaniForm"]["name, email, comments"].value;
   if (x == "") {
-    alert("Name must be filled out");
+    prompt("All fields must be filled out");
     return false;
 
   }
